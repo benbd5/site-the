@@ -170,7 +170,7 @@ header nav {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     margin-bottom: 20px;
-    transition: transform .2s;
+    transition: transform .4s;
 }
 
 .famille-details:hover {
@@ -197,7 +197,7 @@ header nav {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     margin-bottom: 30px;
-    transition: transform .2s;
+    transition: transform .4s;
 }
 
 .galeries-img:hover {
@@ -272,7 +272,7 @@ cite img {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     margin-bottom: 20px;
-    transition: transform .2s;
+    transition: transform .4s;
 }
 
 .pack:hover {
@@ -336,7 +336,7 @@ cite img {
     color: #fff;
 }
 
-.btn-pack {
+.btn-pack, .btn-pack-premium  {
     background-color: green;
     color: #fff;
     margin-bottom: 20px;
@@ -345,6 +345,11 @@ cite img {
 .pack-premium {
     background-color: rgb(36, 182, 36);
     color: #fff;
+}
+
+.btn-pack-premium:hover {
+    background-color: #fff;
+    color: green;
 }
 
 /* =============== CONTACT =============== */
