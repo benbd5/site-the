@@ -216,8 +216,11 @@ header nav {
 
 /* =============== AVIS CLIENTS =============== */
 .clients {
-    background-image: url(../images/the-paysage.jpg),
-        linear-gradient(rgba(0, 242, 96, 0.4), rgba(7, 117, 230, 0.6));
+    background-image: linear-gradient(
+        rgba(0,242,96,0.4),
+        rgba(7,117,230,0.6)
+        ), 
+    url(../images/the-paysage.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
