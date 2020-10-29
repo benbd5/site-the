@@ -85,7 +85,7 @@ header {
 
 .home-title {
     position: absolute;
-    top: 30%;
+    top: 35%;
 }
 
 .home-title h1 {
@@ -144,8 +144,8 @@ header nav {
 }
 
 .produits-plus:hover .produits-icon {
-    transform: translateX(20px);
-    color: rgb(97, 97, 97);
+    transform: translateX(10px);
+    color: rgb(0, 0, 0);
 }
 
 .produit-img {
